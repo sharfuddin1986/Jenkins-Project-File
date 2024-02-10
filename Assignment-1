@@ -17,7 +17,13 @@ Step-1
       Take remote ec2 instance with ubuntu os 20.04 and install jenkins
 
 Step-2
-      Create ec2 instance with ubuntu 20.04 as a slave
-      
+      Create ec2 instance with ubuntu 20.04 as a slave   ## need install java (apt-get install openjdk-11-jdk -y)
+      Add Node-slave1
+      Remote root directory = /home/ubuntu/jenkins/
+      launch method  = lunch agent via ssh
+      Host   =  Ip address of Slave machine
+      Credential add = ssh username with privte key - user ubuntu   enter directly key(paste machine pem key)
+                       none verifiying strategy-save 
+
       
       
