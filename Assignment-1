@@ -14,7 +14,8 @@
 
 
 Step-1
-      Take remote ec2 instance with ubuntu os
-      apt-get install docker.io
-      docker pull ubuntu:latest
-      docker run -dit --name assignment1 -p 80:80 ubuntu:latest
+      Take remote ec2 instance with ubuntu os 20.04 and install jenkins
+
+Step-2
+      
+      
