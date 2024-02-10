@@ -1,1 +1,20 @@
+############################################      Assignment-1    ####################################
 
+                                Trigger a pipeline using git when push on develop branch
+                                Pipeline should pull git content to a folder 
+                                
+
+                                1. Create a pipeline using Git on develop branch
+                                2. Add slave node
+                                3. Create a job and pull the code from Github account.
+                                4. Update the code in central repo after job is build automatically in Jenkins server.
+                            
+
+######################    Follow the below command to execute the Assignment      ############################################
+
+
+Step-1
+      Take remote ec2 instance with ubuntu os
+      apt-get install docker.io
+      docker pull ubuntu:latest
+      docker run -dit --name assignment1 -p 80:80 ubuntu:latest
