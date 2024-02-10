@@ -12,9 +12,14 @@ Step-1
       sudo apt-get install openjdk-11-jdk -y
       which java                ## java is minimum requirment of jenkins
       sudo nano a.sh            ##  paste script all for jenkins installation file 
+      bash a.sh 
+      sudo systemctl enable jenkins
+      allow port 8080 in security group
+      unlock jenkins, copy the secret and paste 
+      sudo cat /var/lib/jenkins/secrets/initialAdminPassword   ## copy key 
+      http://54.173.210.186:8080/                              ## paste key
+      install sugessted plugin
       
-  
-
 Step-2
       docker exec -it assignment1 /bin/bash
       apt-get update -y
