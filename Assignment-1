@@ -25,5 +25,19 @@ Step-2
       Credential add = ssh username with privte key - user ubuntu   enter directly key(paste machine pem key)
                        none verifiying strategy-save 
 
-      
-      
+      Slave in now online               #  Bydefault jenkins folder is created 
+
+
+  
+Step-3
+     Go to the Jenkins server 
+     # sudo mkdir git
+     # cd git 
+     # sudo git init
+     # touch main.c
+     # git add main.c
+     # sudo git config --global user.name "root"
+     # git commit -m " master branch "
+     # one repo create in Github account   ###
+
+       
