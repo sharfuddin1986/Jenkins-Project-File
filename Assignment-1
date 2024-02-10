@@ -17,5 +17,7 @@ Step-1
       Take remote ec2 instance with ubuntu os 20.04 and install jenkins
 
 Step-2
+      Create ec2 instance with ubuntu 20.04 as a slave
+      
       
       
