@@ -37,7 +37,15 @@ Step-3
      # touch main.c
      # git add main.c
      # sudo git config --global user.name "root"
-     # git commit -m " master branch "
-     # one repo create in Github account   ###
+     # sudo git commit -m " master branch "
+     # one repo create in Github account   ### Name live
+     # sudo git remote add origin https://github.com/sharfuddin1986/live.git
+     # sudo git remote -v   ### Check remote status
+     # sudo git branch develope
+     # sudo git checkout develope
+     # sudo touch develope.c
+     # sudo git add develope.c
+     # sudo git commit -m " develope branch "
+
 
        
